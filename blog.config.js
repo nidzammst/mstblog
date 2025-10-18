@@ -15,6 +15,9 @@ const BLOG = {
   KEYWORDS: 'Musthafa Family Blog',
   CONTACT_EMAIL: 'nidzam0501@gmail.com',
   CONTACT_GITHUB: 'https://github.com/nidzammst',
+  SEO_GOOGLE_SITE_VERIFICATION:
+    process.env.NEXT_PUBLIC_SEO_GOOGLE_SITE_VERIFICATION ||
+    'xtxQ4BivrvG0Zu1kxTrKzx7pABt7fxPSVix3uJKVjl8',
 
   // font situs web
   FONT_STYLE: 'font-serif', // ['font-serif','font-sans'] Dua pilihannya adalah serif dan sans serif, Referensi: https://www.jianshu.com/p/55e410bd2115
